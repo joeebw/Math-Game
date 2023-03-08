@@ -264,6 +264,14 @@ button:active {
   .selected-item {
     top: 380px;
   }
+
+  .selection-footer {
+    top: 102px;
+  }
+
+  body {
+    overflow-y: scroll;
+  }
 }
 
 /* Media Query: Large Smartphone (Vertical) */
@@ -304,9 +312,19 @@ button:active {
     left: 245px;
   }
 
-  .selection-footer {
-    top: 183px;
+  .item-footer {
+    bottom: 3px;
+    top: 0;
   }
+
+  .base-time {
+    margin-top: 37px;
+  }
+
+  .score-footer {
+    top: -113px;
+  }
+
 }
 
 /* Media Query: iPhone */
